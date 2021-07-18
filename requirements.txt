@@ -1,0 +1,5 @@
+django==3.2.5
+djangorestframework==3.12.4
+django-rest-marshmallow==4.0.2
+django-rest-swagger==2.2.0
+marshmallow==3.12.2

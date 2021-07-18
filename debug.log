@@ -1,0 +1,161 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Vernacular\validation_api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\validation_api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\validation_api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\validation_api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\values\values.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\domain\domain_base.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\domain\slot_constraints.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\domain\slot_values_domain.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\domain\slot_values_domain.py changed, reloading.
+Watching for file changes with StatReloader
+code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03,\x1d\x1bõ\x8dÎLn\x13Y}\x00ÜúÞ\x0b@\x04\x92\x1bUÍî?Íô7ÊE\x8f²Í +Ò$î¸\x8c¬¬¸©*m\x7fÃ\x86\tsáv\x12þºò-\x01'êñ÷³kç\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+You're accessing the development server over HTTPS, but it only supports HTTP.
+
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03N_7°Á\x83\\4ÒêÝi-!GóG>Ú7\x18ýÙ')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Watching for file changes with StatReloader
+Not Found: /slot_constraints/
+"POST /slot_constraints/ HTTP/1.1" 404 2384
+Bad Request: /validate/slot_constraints/
+"POST /validate/slot_constraints/ HTTP/1.1" 400 57
+Bad Request: /validate/slot_values/
+"POST /validate/slot_values/ HTTP/1.1" 400 57
+"POST /validate/slot_values/ HTTP/1.1" 200 93
+Bad Request: /validate/slot_constraints/
+"POST /validate/slot_constraints/ HTTP/1.1" 400 57
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /validate/slot_constraints/
+Traceback (most recent call last):
+  File "D:\Vernacular\vernacular\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Vernacular\intent_validation\views.py", line 40, in post
+    res = validator.validate_finite_values_entity(**vars(entity_obj))
+  File "D:\Vernacular\intent_validation\services\validationfunction.py", line 19, in validate_finite_values_entity
+    if each[val.staticValue] in supported_values:
+TypeError: argument of type 'NoneType' is not iterable
+"POST /validate/slot_constraints/ HTTP/1.1" 500 99847
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /validate/slot_constraints/
+Traceback (most recent call last):
+  File "D:\Vernacular\vernacular\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Vernacular\intent_validation\views.py", line 40, in post
+    res = validator.validate_finite_values_entity(**vars(entity_obj))
+  File "D:\Vernacular\intent_validation\services\validationfunction.py", line 19, in validate_finite_values_entity
+    if each[val.staticValue] in supported_values:
+TypeError: argument of type 'NoneType' is not iterable
+"POST /validate/slot_constraints/ HTTP/1.1" 500 99847
+Internal Server Error: /validate/slot_constraints/
+Traceback (most recent call last):
+  File "D:\Vernacular\vernacular\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Vernacular\vernacular\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Vernacular\intent_validation\views.py", line 40, in post
+    res = validator.validate_finite_values_entity(**vars(entity_obj))
+  File "D:\Vernacular\intent_validation\services\validationfunction.py", line 19, in validate_finite_values_entity
+    if each[val.staticValue] in supported_values:
+TypeError: argument of type 'NoneType' is not iterable
+"POST /validate/slot_constraints/ HTTP/1.1" 500 99847
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /validate/slot_values/ HTTP/1.1" 200 93
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /validate/slot_constraints/ HTTP/1.1" 200 84
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\services\validationfunction.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /validate/slot_constraints/ HTTP/1.1" 200 84
+"POST /validate/slot_values/ HTTP/1.1" 200 93
+D:\Vernacular\intent_validation\domains\domain\domain_base.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\domain\slot_constraints.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\domain\slot_values_domain.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\schemas\slot_constraint_views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\domains\schemas\slot_values_views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /validate/slot_values/ HTTP/1.1" 200 93
+"POST /validate/slot_constraints/ HTTP/1.1" 200 84
+D:\Vernacular\intent_validation\services\slotvalidator.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\services\validationfunction.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\intent_validation\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Vernacular\validation_api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /validate/slot_constraints/ HTTP/1.1" 200 84
+Watching for file changes with StatReloader
+"POST /validate/slot_constraints/ HTTP/1.1" 200 84
+Watching for file changes with StatReloader
+"POST /validate/slot_constraints/ HTTP/1.1" 200 84
