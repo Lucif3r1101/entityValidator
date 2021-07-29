@@ -17,7 +17,7 @@ The following are the requirements for the project, which will be installed in t
 
 
 # Docker
-Size of the image =  931 MB
+Size of the image =  96 MB
 ## Steps to deploy
 Port exposed = 8000
 
